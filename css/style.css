@@ -36,8 +36,16 @@
     font-family: sans-serif;
 }
 
+#left_text_box {
+    width: 20vh;
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
 #left_text_box p {
-    font-size: 5vw;
+    font-size: 10vw;
+    color: white;
 }
 
 #left_box span {
