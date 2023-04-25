@@ -1,7 +1,33 @@
+#main_page {
+    display: flex;
+}
+
 #left_box {
     width: 50vw;
     height: 100vh;
     background: url("../img/nicole.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#title_box {
+    display: flex;
+    height: 4.5em;
+    width: 8em;
+}
+
+#title_box img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+    height: 50%;
+}
+
+#title_box p {
+    font-size: larger;
+}
+
+#right_box {
+    width: 50vw;
+    height: 100vh;
 }
