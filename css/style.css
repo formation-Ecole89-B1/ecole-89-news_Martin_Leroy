@@ -37,21 +37,44 @@
 }
 
 #left_text_box {
-    width: 20vh;
-    margin-top: 50vh;
-    margin-bottom: 50vh;
-    background-color: rgba(255, 0, 0, 0.5);
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 47vh;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#left_text_box p {
-    font-size: 10vw;
+.middle_left {
+    text-align: right;
+    padding: 0 auto;
+    padding-top: 0;
+    padding-left: 3.5vw;
+    padding-right: 1vw;
+    font-size: 1.7vh;
     color: white;
+    font-family: sans-serif;
+}
+
+.middle_left:first-child {
+    text-align: right;
+    padding-top: 2.2vh;
+    padding-right: 1vw;
+    padding-bottom: 0;
+    font-size: 2.2vh;
+    color: white;
+    font-family: sans-serif;
 }
 
 #left_box span {
     font-weight: 800;
+    font-size: 2.9vh;
+
 }
 
+#left_text_box strong{
+    font-weight: 700;
+    font-size: 2.9vh;
+
+}
 #right_box {
     width: 50vw;
     min-height: 100vh;
