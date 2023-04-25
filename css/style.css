@@ -13,7 +13,7 @@
 #right_box {
     margin-left: 50vw;
     width: 50vw;
-    background-color: aqua;
+    background-color: white;
 }
 
 #title_box {
@@ -45,8 +45,6 @@
 
 .middle_left {
     text-align: right;
-    padding: 0 auto;
-    padding-top: 0;
     padding-left: 3.5vw;
     padding-right: 1vw;
     font-size: 1.7vh;
@@ -77,5 +75,16 @@
 }
 #right_box {
     width: 50vw;
-    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+header p {
+    margin-top: -7px;
+    /*font-size: xx-large;*/
+    font-size: 25px;
+    font-weight: 500;
 }
