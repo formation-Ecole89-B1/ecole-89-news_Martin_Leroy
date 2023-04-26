@@ -10,12 +10,6 @@
     background-size: cover;
 }
 
-#right_box {
-    margin-left: 50vw;
-    width: 50vw;
-    background-color: white;
-}
-
 #title_box {
     display: flex;
     position: absolute;
@@ -65,16 +59,22 @@
 #left_box span {
     font-weight: 800;
     font-size: 2.9vh;
-
+    
 }
 
 #left_text_box strong{
     font-weight: 700;
     font-size: 2.9vh;
-
+    
 }
+
 #right_box {
+    position: absolute;
+    right: 0px;
+    top: 0px;
     width: 50vw;
+    max-width: 50vw;
+    background-color: white;
 }
 
 header {
@@ -83,8 +83,19 @@ header {
 }
 
 header p {
-    margin-top: -7px;
-    /*font-size: xx-large;*/
-    font-size: 25px;
+    margin-top: -0.2em;
+    font-size: 2em;
     font-weight: 500;
+    margin-bottom: 0;
+}
+
+#all_imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blog {
+    padding: 1vh;
+    border: #eaeaea solid 2px;
+    height: fit-content;
 }
