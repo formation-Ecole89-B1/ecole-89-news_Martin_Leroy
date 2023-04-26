@@ -96,6 +96,90 @@ header p {
 
 .blog {
     padding: 1vh;
-    border: #eaeaea solid 2px;
+    border: #eaeaea solid 1px;
     height: fit-content;
+}
+
+#color_title_news {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-top: 0.8em;
+    background-color: #98DC62;
+    width: fit-content;
+}
+
+#color_title_team {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-top: 0.8em;
+    background-color: #DC5E53;
+    width: fit-content;
+}
+
+#color_title_work {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-top: 0.8em;
+    background-color: #0766F0;
+    width: fit-content;
+}
+
+.blog_title {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.author_logo {
+    display: flex;
+}
+
+.author_logo img {
+    height: 2.5em;
+    margin-right: 1em;
+}
+
+.author_logo p {
+    font-size: 1.5em;
+    color: grey;
+}
+
+.author_logo span {
+    font-weight: 700;
+    color: black;
+}
+
+.blog_text {
+    font-size: 1.05em;
+}
+
+.blog a {
+    text-decoration: underline;
+}
+
+.blog a:hover {
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+#bottom_link {
+    position: absolute;
+    bottom: 1.5vh;
+    right: 10px;
+}
+
+#bottom_link a {
+    color: white;
+    margin-left: 1vw;
 }
