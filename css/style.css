@@ -233,3 +233,14 @@ form button {
     margin-top: 2em;
     border-radius: 20px;
 }
+
+#mentions {
+    margin: 2em;
+    border: 0.1em solid;
+    background-color: rgba(169, 206, 241, 0.326);
+    padding: 1em;
+}
+
+#mentions p {
+    font-size: large;
+}
